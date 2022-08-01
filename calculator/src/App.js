@@ -103,6 +103,7 @@ function evaluate({currentOperand, previousOperand, operation}) {
     return ""
   }
   let result = ""
+  // eslint-disable-next-line default-case
   switch(operation) {
     case "+": result = prev + curr
       break
